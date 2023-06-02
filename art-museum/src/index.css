@@ -1,1 +1,25 @@
 /* TODO Add site wide styles */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0 15%;
+}
+main {
+  /* width; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  overflow-x: hidden;
+}
+img {
+  width: 15vw;
+  height: 15vw;
+  margin: 0 auto;
+  object-fit: cover;
+  border-radius: 3px;
+}
+.external {
+  padding: 0 10px;
+}

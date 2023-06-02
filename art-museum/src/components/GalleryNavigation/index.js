@@ -5,7 +5,6 @@ export default function GalleryNavigation({ galleries }) {
   let gals = galleries.records.map(gallery => {
     return (
       <NavLink
-        exact
         key={`GalleryKey${gallery.id}`}
         to={`/galleries/${gallery.id}`}
       >
